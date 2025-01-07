@@ -1,8 +1,18 @@
-# React + Vite
+Employees Task Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Project built using Reactjs and practice on contextAPI.
+2. Using localStorage data is passed locally.
+3. Structure:                       Login
+4.                                    |
+                     Employee                    Admin
+                         |                         |
+    NewTask  AcceptTask  Complete  Failed      Assign Task
+ 
+5. Key Functionality: 1 Admin assign the task to the specific employee by name using form which creates a NewTask to the employees
+                      2 Employees accepts the task. And all the details are shown on both the dashboards Employees and Admin
+   AdminLogin-
+   Email: admin@me.com
+   password: 123
+   Employees Login-
+   Email: employees1@example.com (5 Employees respectively)
+   password:123
